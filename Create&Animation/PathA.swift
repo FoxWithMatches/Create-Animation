@@ -44,7 +44,7 @@ struct PathA: View {
             .opacity(0.8)
         }
         .frame(width: width, height: height)
-}
+    }
 }
 
 struct PathA_Previews: PreviewProvider {

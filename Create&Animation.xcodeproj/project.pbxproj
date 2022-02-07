@@ -17,6 +17,7 @@
 		EA4E782827B137C700EF430D /* HummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782727B137C700EF430D /* HummerView.swift */; };
 		EA4E782A27B1381400EF430D /* JointPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782927B1381400EF430D /* JointPath.swift */; };
 		EA4E782C27B1382F00EF430D /* PathB.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782B27B1382F00EF430D /* PathB.swift */; };
+		EA4E782E27B1B05800EF430D /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782D27B1B05800EF430D /* HelloView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EA4E782727B137C700EF430D /* HummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HummerView.swift; sourceTree = "<group>"; };
 		EA4E782927B1381400EF430D /* JointPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JointPath.swift; sourceTree = "<group>"; };
 		EA4E782B27B1382F00EF430D /* PathB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathB.swift; sourceTree = "<group>"; };
+		EA4E782D27B1B05800EF430D /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +68,12 @@
 				EA4E781327B1357200EF430D /* Create_AnimationApp.swift */,
 				EA4E781527B1357200EF430D /* ContentView.swift */,
 				EA4E782127B136B900EF430D /* SquareView.swift */,
+				EA4E782727B137C700EF430D /* HummerView.swift */,
+				EA4E782D27B1B05800EF430D /* HelloView.swift */,
 				EA4E782327B136E600EF430D /* PathA.swift */,
 				EA4E782B27B1382F00EF430D /* PathB.swift */,
 				EA4E782927B1381400EF430D /* JointPath.swift */,
 				EA4E782527B1370D00EF430D /* CircleView.swift */,
-				EA4E782727B137C700EF430D /* HummerView.swift */,
 				EA4E781727B1357300EF430D /* Assets.xcassets */,
 				EA4E781927B1357300EF430D /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4E782E27B1B05800EF430D /* HelloView.swift in Sources */,
 				EA4E782827B137C700EF430D /* HummerView.swift in Sources */,
 				EA4E782427B136E600EF430D /* PathA.swift in Sources */,
 				EA4E782627B1370D00EF430D /* CircleView.swift in Sources */,

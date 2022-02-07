@@ -51,7 +51,7 @@ struct PathB: View {
             )
         }
         .frame(width: width, height: height)
-}
+    }
 }
 
 struct PathB_Previews: PreviewProvider {

@@ -13,12 +13,6 @@ struct HummerView: View {
     
     var body: some View {
         GeometryReader { geometry in
-            let size = min(geometry.size.width, geometry.size.height)
-//            let nearLine = size * 0.1
-//            let nearLine2 = size * 0.2
-//            let farLine2 = size * 0.8
-//            let farLine = size * 0.9
-//            let middle = size / 2
             
             Path { path in
                 path.move(to: CGPoint(x: 55, y: 40))
@@ -48,17 +42,17 @@ struct HummerView: View {
                                   control: CGPoint(x: 90, y: 30))
             }
             .fill(
-            LinearGradient(
-                colors: [.gray, .black],
-                startPoint: UnitPoint(x: 1, y: 0),
-                endPoint: UnitPoint(x: 0, y: 0))
+                LinearGradient(
+                    colors: [.gray, .black],
+                    startPoint: UnitPoint(x: 1, y: 0),
+                    endPoint: UnitPoint(x: 0, y: 0))
             )
             .scaleEffect(1.5)
             .offset(x: 60, y: -10)
-    }
+        }
         .shadow(color: .black, radius: 5, x: 5, y: 10)
         .frame(width: width, height: height)
-}
+    }
 }
 struct HummerView_Previews: PreviewProvider {
     static var previews: some View {

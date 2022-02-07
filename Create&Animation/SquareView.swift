@@ -21,8 +21,6 @@ struct SquareView: View {
             let nearLine2 = size * 0.2
             let farLine2 = size * 0.8
             let farLine = size * 0.9
-            let middle = size / 2
-            
             
             Path { path in
                 path.move(
@@ -55,7 +53,7 @@ struct SquareView: View {
                         y: geometry.size.height / 8)
             CircleView(width: 120, height: 120)
                 .offset(x: geometry.size.width / 5,
-                    y: geometry.size.height / 5)
+                        y: geometry.size.height / 5)
             JointPath(width: 160, height: 160)
                 .offset(x: geometry.size.width / 10,
                         y: geometry.size.height / 2)

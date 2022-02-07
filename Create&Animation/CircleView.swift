@@ -10,7 +10,7 @@ import SwiftUI
 struct CircleView: View {
     let width: CGFloat
     let height: CGFloat
-   
+    
     var body: some View {
         
         Circle()

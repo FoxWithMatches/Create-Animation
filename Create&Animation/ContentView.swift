@@ -12,21 +12,24 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            HelloView()
+                .opacity(showHummer ? 1 : 0)
+                .padding(.bottom)
             ZStack {
                 SquareView(width: 200, height: 200)
                 HummerView(width: 200, height: 200)
                     .rotationEffect(.degrees(showHummer ? 0 : 360))
-                    .scaleEffect(showHummer ? 1.3 : 1)
+                    .scaleEffect(showHummer ? 1.2 : 1)
             }
             .onTapGesture {
-                withAnimation(Animation.easeInOut(duration: 1).delay(0.5)) {
+                withAnimation(Animation
+                                .easeInOut(duration: 1)
+                                .delay(0.2)) {
                     showHummer.toggle()
                 }
             }
-            
         }
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
