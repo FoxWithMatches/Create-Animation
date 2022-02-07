@@ -11,6 +11,12 @@
 		EA4E781627B1357200EF430D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E781527B1357200EF430D /* ContentView.swift */; };
 		EA4E781827B1357300EF430D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4E781727B1357300EF430D /* Assets.xcassets */; };
 		EA4E781B27B1357300EF430D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4E781A27B1357300EF430D /* Preview Assets.xcassets */; };
+		EA4E782227B136B900EF430D /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782127B136B900EF430D /* SquareView.swift */; };
+		EA4E782427B136E600EF430D /* PathA.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782327B136E600EF430D /* PathA.swift */; };
+		EA4E782627B1370D00EF430D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782527B1370D00EF430D /* CircleView.swift */; };
+		EA4E782827B137C700EF430D /* HummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782727B137C700EF430D /* HummerView.swift */; };
+		EA4E782A27B1381400EF430D /* JointPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782927B1381400EF430D /* JointPath.swift */; };
+		EA4E782C27B1382F00EF430D /* PathB.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E782B27B1382F00EF430D /* PathB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		EA4E781527B1357200EF430D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA4E781727B1357300EF430D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA4E781A27B1357300EF430D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA4E782127B136B900EF430D /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		EA4E782327B136E600EF430D /* PathA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathA.swift; sourceTree = "<group>"; };
+		EA4E782527B1370D00EF430D /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		EA4E782727B137C700EF430D /* HummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HummerView.swift; sourceTree = "<group>"; };
+		EA4E782927B1381400EF430D /* JointPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JointPath.swift; sourceTree = "<group>"; };
+		EA4E782B27B1382F00EF430D /* PathB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				EA4E781327B1357200EF430D /* Create_AnimationApp.swift */,
 				EA4E781527B1357200EF430D /* ContentView.swift */,
+				EA4E782127B136B900EF430D /* SquareView.swift */,
+				EA4E782327B136E600EF430D /* PathA.swift */,
+				EA4E782B27B1382F00EF430D /* PathB.swift */,
+				EA4E782927B1381400EF430D /* JointPath.swift */,
+				EA4E782527B1370D00EF430D /* CircleView.swift */,
+				EA4E782727B137C700EF430D /* HummerView.swift */,
 				EA4E781727B1357300EF430D /* Assets.xcassets */,
 				EA4E781927B1357300EF430D /* Preview Content */,
 			);
@@ -137,6 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4E782827B137C700EF430D /* HummerView.swift in Sources */,
+				EA4E782427B136E600EF430D /* PathA.swift in Sources */,
+				EA4E782627B1370D00EF430D /* CircleView.swift in Sources */,
+				EA4E782A27B1381400EF430D /* JointPath.swift in Sources */,
+				EA4E782227B136B900EF430D /* SquareView.swift in Sources */,
+				EA4E782C27B1382F00EF430D /* PathB.swift in Sources */,
 				EA4E781627B1357200EF430D /* ContentView.swift in Sources */,
 				EA4E781427B1357200EF430D /* Create_AnimationApp.swift in Sources */,
 			);
