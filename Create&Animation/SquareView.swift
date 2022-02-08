@@ -45,9 +45,9 @@ struct SquareView: View {
                 path.addQuadCurve(
                     to: CGPoint(x: nearLine2, y: nearLine),
                     control: CGPoint(x: nearLine, y: nearLine))
-                
             }
             .stroke(lineWidth: 2)
+            
             CircleView(width: 150, height: 150)
                 .offset(x: geometry.size.width / 8,
                         y: geometry.size.height / 8)
@@ -65,7 +65,6 @@ struct SquareView: View {
                 .offset(x: -geometry.size.width / 14,
                         y: geometry.size.height / 3)
                 .rotationEffect(.degrees(-60))
-            
         }
         .background(LinearGradient(
             colors: [blue, skyBlue],
@@ -75,8 +74,8 @@ struct SquareView: View {
         .frame(width: width, height: height)
         .cornerRadius(30)
     }
-    
 }
+
 struct SquareView_Previews: PreviewProvider {
     static var previews: some View {
         SquareView(width: 200, height: 200)

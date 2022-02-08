@@ -14,7 +14,7 @@ struct ContentView: View {
         VStack {
             HelloView()
                 .opacity(showHummer ? 1 : 0)
-                .padding(.bottom)
+                .padding(.bottom, 30)
             ZStack {
                 SquareView(width: 200, height: 200)
                 HummerView(width: 200, height: 200)

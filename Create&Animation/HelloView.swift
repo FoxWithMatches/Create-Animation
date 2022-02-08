@@ -59,20 +59,17 @@ struct HelloView: View {
                 path.addQuadCurve(
                     to: CGPoint(x: 230, y: 50),
                     control: CGPoint(x: 220, y: 70))
-                
             }
-            
             .stroke(
                 LinearGradient(
                     colors: [.blue, .purple, .pink, .red, .orange, .yellow, .green],
                     startPoint: UnitPoint(x: 0, y: 0),
                     endPoint: UnitPoint(x: 1, y: 0)), lineWidth: 7)
-            
         }
         .frame(width: 230, height: 130)
-        
     }
 }
+
 struct HelloView_Previews: PreviewProvider {
     static var previews: some View {
         HelloView()
